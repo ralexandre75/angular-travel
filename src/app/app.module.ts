@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { StayComponent } from './stay/stay.component';
 import { FlightComponent } from './flight/flight.component';
 import { HotelComponent } from './hotel/hotel.component';
+import { CarComponent } from './car/car.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { HotelComponent } from './hotel/hotel.component';
     HeaderComponent,
     StayComponent,
     FlightComponent,
-    HotelComponent
+    HotelComponent,
+    CarComponent
   ],
   imports: [
     BrowserModule
