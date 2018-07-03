@@ -8,6 +8,7 @@ import { StayComponent } from './stay/stay.component';
 import { FlightComponent } from './flight/flight.component';
 import { HotelComponent } from './hotel/hotel.component';
 import { CarComponent } from './car/car.component';
+import { TrainComponent } from './train/train.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CarComponent } from './car/car.component';
     StayComponent,
     FlightComponent,
     HotelComponent,
-    CarComponent
+    CarComponent,
+    TrainComponent
   ],
   imports: [
     BrowserModule
